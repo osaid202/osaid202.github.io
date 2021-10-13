@@ -1,8 +1,8 @@
 import './style.css'
 //import * as THREE from 'three';
 import * as THREE from 'https://cdn.jsdelivr.net/npm/three@0.133.1/build/three.module.js';
-import {OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
-import {GLTFLoader} from 'three/examples/jsm/loaders/GLTFLoader.js';
+import {OrbitControls } from 'https://cdn.skypack.dev/three@0.133.1/examples/jsm/controls/OrbitControls.js';
+import {GLTFLoader} from 'https://cdn.skypack.dev/three@0.133.1/examples/jsm/loaders/GLTFLoader.js';
 
 //Three required elements.
 const scene = new THREE.Scene();
