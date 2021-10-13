@@ -1,4 +1,4 @@
-import './style.css'
+//import './style.css';
 //import * as THREE from 'three';
 import * as THREE from 'https://cdn.jsdelivr.net/npm/three@0.133.1/build/three.module.js';
 import {OrbitControls } from 'https://cdn.skypack.dev/three@0.133.1/examples/jsm/controls/OrbitControls.js';
