@@ -1,0 +1,56 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Roboto Mono', monospace;
+  letter-spacing: 3px;
+}
+
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+main{
+  position: absolute;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(40, 250px);
+  color: aliceblue;
+  
+}
+
+  #intro {
+    grid-column: 5/10;
+    grid-row: 5/ span 3;
+    color: black;
+    background-color: antiquewhite;
+  }
+  
+  #test{
+    grid-column: 5/10;
+    grid-row: 10/ auto;
+  }
+
+
+#header_container{
+  display: flex;
+  position: fixed;
+  width: 100%;
+  color: aliceblue;
+  z-index: 1;
+  justify-content: space-evenly;
+  
+}
+
+ .items {
+   flex-grow: 1;
+   display: flex;
+   justify-content: center;
+   padding: 20px 0px;
+   margin-bottom: 50px;
+   border: 1px solid white;
+   background-color: black;
+ }
+
+ 
