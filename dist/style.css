@@ -2,7 +2,7 @@
   padding: 0px;
   margin: 0px;
   font-family: 'Roboto Mono', monospace;
-  letter-spacing: 3px;
+  
 }
 
 canvas {
@@ -22,14 +22,17 @@ main{
 
   #intro {
     grid-column: 5/10;
-    grid-row: 5/ span 3;
+    grid-row: 5/ span 2;
     color: black;
     background-color: antiquewhite;
+    letter-spacing: 3px;
   }
   
   #test{
     grid-column: 5/10;
-    grid-row: 10/ auto;
+    grid-row: 10/ 25;
+    color: black;
+    background-color: antiquewhite;
   }
 
 
@@ -53,4 +56,24 @@ main{
    background-color: black;
  }
 
+ h2{
+   padding: 10px;
+ }
  
+ #lang{
+   color: darkblue;
+   font-size: 200px;
+ }
+
+ .c_items{
+   border: 3px dashed darkred;
+   padding: 20px;
+   margin: 5px;
+ }
+ .c_items img{
+   width: 500px;
+ }
+
+ nav{
+  letter-spacing: 3px;
+ }
