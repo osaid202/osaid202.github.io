@@ -2,7 +2,7 @@
   padding: 0px;
   margin: 0px;
   font-family: 'Roboto Mono', monospace;
-  
+  text-align: center;
 }
 
 canvas {
@@ -60,8 +60,8 @@ main{
    padding: 10px;
  }
  
- #lang{
-   color: darkblue;
+ .lang{
+   color: #0078d7;
    font-size: 200px;
  }
 
